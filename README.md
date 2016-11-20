@@ -6,6 +6,7 @@ To make optimization happen I reviewed the timeline and noticed there was 2 link
 When I fixed that the whole page started rendering much quicker.
 Then I pasted the stylesheet directly into the webpage at the end of the code.
 To avoid block rendering I put Js for Google analytics separately and added async tag. I also added another stylesheet with media query of max-width of 480px.
+To optimize Google font I used @font-face to select the particular version of the font for browser to use.
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
